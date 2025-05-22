@@ -1,13 +1,9 @@
 const API_PATHS = {
-  product:
-    "http://localhost:7071/api" ||
-    "https://.execute-api.eu-west-1.amazonaws.com/dev",
-  order: "https://.execute-api.eu-west-1.amazonaws.com/dev",
-  import: "https://.execute-api.eu-west-1.amazonaws.com/dev",
-  bff:
-    "http://localhost:7071/api" ||
-    "https://.execute-api.eu-west-1.amazonaws.com/dev",
-  cart: "https://.execute-api.eu-west-1.amazonaws.com/dev",
+  product: "https://fa-functions-sand-ne-001.azurewebsites.net/api",
+  order: "https://fa-functions-sand-ne-001.azurewebsites.net/api",
+  import: "https://fa-functions-sand-ne-001.azurewebsites.net/api",
+  bff: "https://fa-functions-sand-ne-001.azurewebsites.net/api",
+  cart: "https://fa-functions-sand-ne-001.azurewebsites.net/api",
 };
 
 export default API_PATHS;
